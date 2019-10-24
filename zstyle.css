@@ -1,0 +1,414 @@
+
+html{
+	scroll-behavior:smooth;
+}
+
+
+
+h1{
+	font-family: roboto, sans-serif;
+}
+
+h2{
+	font-family: roboto, sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+.points{
+	font-size: 3em;
+}
+
+nav ul {
+	display: flex;
+	list-style: ;
+	justify-content: space-around;
+
+}
+.navbar {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+}
+
+
+.navbar-light .navbar-brand {
+    color:rgb(234,217,205);
+}
+
+.banner{
+	background-color: rgb(234,217,205);
+	padding-top: 100px;
+	
+
+}
+
+.infos {
+	color: white;
+	padding:30px 20px 60px 20px;
+}
+
+.btn-banner {
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: underline; 
+	position: relative;
+	transition: .8s ease;
+	top:80%;
+	left:85%;
+	padding: 10px 10px 10px 10px;
+	border-radius:4px;
+	box-shadow: 0px 2px 2px;
+}
+
+.col-md-4{
+	position: absolute;
+	left:50%;
+	margin-left:300px;
+}
+
+.bannerh2{
+	text-decoration: none;
+}
+
+.card-container{
+	display:flex;
+	justify-content: space-between;
+	padding:100px 100px 10px 100px;
+
+
+}
+
+.card{
+	font-family: roboto, sans-serif;
+	text-align:center;
+	background-color:rgb(234,217,205);
+	box-shadow: 0px 4px 4px;
+	border-radius: 4px;
+
+}
+
+.btn-card{
+	background-color: white;
+	font-family: roboto, sans-serif;
+	color:rgb(98,153,150);
+	padding:10px 10px 10px 10px;
+	box-shadow:0px 2px 2px;
+	border-radius:4px;
+}
+
+
+.btn-bottom{
+
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: underline;
+	padding:40px 10px 10px 10px;
+	border-radius:5px;
+
+}
+
+.btn-2{
+	background-color: rgb(234,217,205);
+	padding:10px 10px 10px 10px;
+	text-decoration: underline;
+	color:white;
+	border-radius:5px;
+	box-shadow:0px 2px 2px;
+}
+
+.btn-2 a{
+	color: white;
+}
+	
+
+
+.profil{
+	position: relative;
+}
+
+.blue-front{
+
+	position: absolute;
+	height:300px;
+	width:1000px;
+	padding: 20px 20px 20px 20px;
+	top:150px;
+	margin-left: 220px;
+
+}
+
+.image-profil{
+	position:relative;
+	float:right;
+	right:230px;
+	top:75px;
+	margin-left:1200px;
+	padding: 10px 10px 10px 10px;
+
+
+}
+
+
+.mon-profil{
+	position:relative;
+	top:180px;
+	margin-left:680px;
+	z-index: 20;
+	color:white;
+
+
+}
+
+
+.profil-list{
+	position:absolute;
+	top:240px;
+	margin-left:330px;
+	z-index: 20;
+	color:white;
+	font-size:1.4em;
+
+
+}
+
+
+
+.reseau{
+	position:relative;
+}
+
+.pink-front{
+
+	position: absolute;
+	height:300px;
+	width:800px;
+	padding: 20px 20px 20px 20px;
+	top:700px;
+	margin-left: 330px;
+
+}
+
+
+.mes-reseaux{
+	position:relative;
+	top:370px;
+	margin-left:380px;
+	z-index: 20;
+
+}
+
+
+.icons{
+	position:relative;
+	display:flex;
+	padding:100px;
+	top:320px;
+	margin-left:400px;
+	
+}
+
+.facebook{
+	margin-left: 40px;
+}
+
+.twitter{
+	margin-left:40px;
+}
+
+
+.instagram{
+	margin-left:40px;
+}
+
+
+.bluefrontform{
+	position:absolute;
+	height:500px;
+	width:1100px;
+	top:2175px;
+	margin-left: 20px;
+}
+
+.livres{
+	position: relative;
+	height:600px;
+	top:440px;
+	margin-left: 50px;
+}
+
+.ma-formation{
+
+	position: relative;
+	top:570px;
+	margin-left: 850px;
+	z-index: 10;
+	color:white;
+}
+
+.formacontent{
+	position: relative;
+	top:10px;
+	margin-left: 480px;
+	color:white;
+
+}
+
+.special{
+	font-size:14px;
+	font-style: italic;
+}
+
+
+
+.pinkfrontpro{
+	position: absolute;
+	top:2975px;
+	height:800px;
+	width:1300px;
+	margin-left: 100px;
+}
+
+.travail{
+	position: relative;
+	height:870px;
+
+	top:310px;
+	margin-left: 910px;
+
+}
+
+.mon-parcours-pro{
+	position: relative;
+	top:410px;
+	margin-left: 150px;
+	z-index: 10;
+	
+
+}
+
+
+.procontent{
+	position: relative;
+	margin-left: 140px;
+	top:-420px;
+	
+
+}
+
+
+.pinkfrontcomp{
+	position: absolute;
+	top:3985px;
+	height:500px;
+	width:1000px;
+	margin-left: 220px;
+
+}
+
+.mes-competences{
+	position: relative;
+	top:-120px;
+	margin-left: 930px;
+	z-index: 10;
+
+}
+
+.iconbis{
+	position:relative;
+	display:flex;
+	top:-70px;
+	padding:0px 0px 50px 0px;
+
+	margin-left:360px;
+
+}
+
+.office{
+	
+}
+
+
+.photoshop{
+	margin-left: 100px;
+}
+
+.sharepoint{
+	margin-left: 100px;
+}
+
+.imovie{
+	margin-left: 100px;
+}
+
+
+.iconflag{
+	position:relative;
+	display:flex;
+	padding:60px;
+	top:-60px;
+
+	margin-left:500px;
+}
+
+.spain{
+	margin-left: 150px;
+}
+
+
+.bluefrontprojets{
+	position: absolute;
+	top:4770px;
+	height:490px;
+	width: 800px;
+	margin-left:320px ;
+}
+
+.mes-projets{
+	position:relative;
+	top:310px;
+	margin-left: 380px;
+	z-index: 10;
+	color:white;
+}
+
+.projets-content{
+	position:relative;
+	top:330px;
+	margin-left: 350px;
+	z-index: 10;
+	font-size:1.6em;
+	color: white;
+}
+
+.pinkfrontcontact{
+	position: absolute;
+	top:5470px;
+	height:350px;
+	width: 1000px;
+	margin-left: 210px;
+
+}
+
+.me-contacter{
+	position: relative;
+	top:640px;
+	text-align: center;
+
+}
+
+
+.contact-content{
+	position: relative;
+	top:735px;
+	text-align: center;
+	font-size: 1.8em;
+
+
+}
+
+.navlink ul li a ::before {
+	display: none; 
+}
+
+
